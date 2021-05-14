@@ -1,0 +1,21 @@
+UC1:Ability to create a payroll service
+ database
+
+mysql> create database payroll_service;
+mysql> show databases
+    -> ;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| payroll            |
+| payroll_service    |
+| performance_schema |
+| pet                |
+| sakila             |
+| sys                |
+| world              |
++--------------------+
+mysql> use payroll_service ;
+Database changed
