@@ -65,3 +65,21 @@ mysql>  select * from employee_payroll;
 |  2 | Harry | 150000 | 2018-12-15 |
 |  3 | David | 200000 | 2017-01-01 |
 +----+-------+--------+------------+
+
+UC4 : Ability to retrieve all the
+employee payroll data that is
+added to payroll service
+database
+
+mysql> SELECT * FROM employee_payroll;
++----+-------+--------+------------+
+| id | name  | salary | start      |
++----+-------+--------+------------+
+|  1 | Rick  | 100000 | 2020-10-20 |
+|  2 | Harry | 150000 | 2018-12-15 |
+|  3 | David | 200000 | 2017-01-01 |
++----+-------+--------+------------+
+
+
+
+
